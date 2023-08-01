@@ -23,6 +23,9 @@ h6,
 .font-weight-medium {
     font-weight: 500 !important;
 }
+textarea {
+    resize: none;
+  } 
 
 @media only screen and (max-width: 600px){
 .mobileWidthFix {
