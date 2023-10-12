@@ -15,10 +15,10 @@
 
 */
 :root {
-    --primary: #1d7797;
-    --secondary: #be4d25;
-    --light: #EEF9FF;
-    --dark: #091E3E;
+    --primary: #2d3939;
+    --secondary:#977d75;
+    --light: #DBE9EA;
+    --dark: #544D4C;
 }
 
 h1,
@@ -155,7 +155,7 @@ textarea {
     left: 0;
     right: 0;
     bottom: 0;
-    background: rgba(9, 30, 62, .85);
+    background: rgba(23, 29, 28,.85);
     z-index: 1;
 }
 
@@ -215,17 +215,17 @@ textarea {
 }
 
 .hero-header {
-    background: linear-gradient(rgba(9, 30, 62, .85), rgba(9, 30, 62, .85)), url(../img/carousel-1.jpg) center center no-repeat;
+    background: linear-gradient(rgba(23, 29, 28,.75), rgba(23, 29, 28,.90)), url(../img/carousel-1.jpg) center center no-repeat;
     background-size: cover;
 }
 
 .bg-appointment {
-    background: linear-gradient(rgba(9, 30, 62, .85), rgba(9, 30, 62, .85)), url(../img/carousel-1.jpg) center center no-repeat;
+    background: linear-gradient(rgba(23, 29, 28,.90), rgba(23, 29, 28,.85)), url(../img/carousel-1.jpg) center center no-repeat;
     background-size: cover;
 }
 
 .appointment-form {
-    background: rgba(6, 163, 218, .7);
+    background: rgba(215, 179, 167,.80);
 }
 
 .service-item img,
@@ -265,7 +265,7 @@ textarea {
 }
 
 .offer-text {
-    background: rgba(6, 163, 218, .85);
+    background: rgba(215, 179, 167,.95);
 }
 
 .price-carousel .owl-nav {
@@ -309,9 +309,6 @@ textarea {
     background-size: cover;
 }
 
-.testimonial-carousel {
-    background: rgba(6, 163, 218, .85);
-}
 
 .testimonial-carousel .owl-nav {
     position: absolute;
@@ -347,4 +344,27 @@ textarea {
 .testimonial-carousel .owl-item img {
     width: 120px;
     height: 120px;
+}
+
+
+  div.dropdown-row>a.dropdown-item{
+    display:inline-block;
+    width: 48%;
+  }
+  
+  /* Columns */
+  div.dropdown-multicol2{
+    width: 24em;
+   
+  }
+  div.dropdown-multicol2>div.dropdown-col{
+    display:inline-block;
+    width: 48%;
+  }
+
+  @media (min-width: 992px) {
+    .dropdown-menu-center {
+        left: 50%;
+        transform: translateX(-50%);
+    }
 }
