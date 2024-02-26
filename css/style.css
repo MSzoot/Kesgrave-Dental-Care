@@ -62,13 +62,13 @@ textarea {
 }
 
 .btn-primary:hover {
-  background: var(--primary);
-  border-color: var(--primary);
+  background: #56918f;
+  border-color: #56918f;
 }
 
 .btn-secondary:hover {
-  background: var(--primary);
-  border-color: var(--primary);
+  background: #56918f;
+  border-color: #56918f;
 }
 
 .btn-square {
