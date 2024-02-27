@@ -106,9 +106,22 @@
       </button>
       <div class="collapse navbar-collapse" id="navbarCollapse">
         <div class="navbar-nav ms-auto py-0">
-          <a href="index.html" class="nav-item nav-link active">Home</a>
-          <a href="about.html" class="nav-item nav-link">About</a>
-          <a href="emergencies.html" class="nav-item nav-link">Emergencies</a>
+          <div class="dropdown nav-item">
+            <a
+              href="about.html"
+              class="nav-item nav-link dropdown-toggle"
+              data-bs-toggle="dropdown"
+              >About</a
+            >
+            <div
+              class="dropdown-menu bg-dark dropdown border-0 dropdown-menu-left"
+              aria-labelledby="dropdownMenuButton"
+            >
+              <div class="dropdown-col"></div>
+              <a class="dropdown-item" href="about.html">Our Practice</a>
+              <a class="dropdown-item" href="#">Our Team</a>
+            </div>
+          </div>
           <div class="dropdown nav-item">
             <a
               href="#"
@@ -117,8 +130,7 @@
               >Treatments</a
             >
             <div
-              class="dropdown-menu bg-dark dropdown-multicol2 border-0 dropdown-menu-center"
-              style="width: 40em"
+              class="dropdown-menu bg-dark dropdown-multicol2 border-0 dropdown-menu-center dropdown-treatments"
               aria-labelledby="dropdownMenuButton"
             >
               <div class="dropdown-col">
@@ -134,7 +146,7 @@
                 <a class="dropdown-item" href="#">Teeth Extraction</a>
                 <a class="dropdown-item" href="#">Sedation</a>
               </div>
-              <div class="dropdown-col" style="transform: translateY(-30px)">
+              <div class="dropdown-col nav-mobile-fix">
                 <h5 class="p-3">Implants</h5>
                 <a class="dropdown-item" href="#">Dental Implants</a>
                 <a class="dropdown-item" href="#">Implant Dentures</a>
@@ -144,11 +156,12 @@
                 <a class="dropdown-item" href="#">Veneers</a>
                 <a class="dropdown-item" href="#">Teeth whitening</a>
                 <a class="dropdown-item" href="#"
-                  >Invisalign and Clear Aligners</a
+                  >Invisalign & Clear Aligners</a
                 >
               </div>
             </div>
           </div>
+          <a href="emergencies.html" class="nav-item nav-link">Emergencies</a>
           <a href="price.html" class="nav-item nav-link">Pricing</a>
           <a href="contact.html" class="nav-item nav-link">Contact</a>
         </div>

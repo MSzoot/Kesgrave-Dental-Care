@@ -315,19 +315,29 @@ div.dropdown-row > a.dropdown-item {
 
 /* Columns */
 div.dropdown-multicol2 {
-  width: 24em;
+  width: 30em;
 }
 div.dropdown-multicol2 > div.dropdown-col {
   display: inline-block;
-  width: 48%;
+  width: 49%;
+  vertical-align: top;
+}
+
+@media (max-width: 767px) {
+  div.dropdown-multicol2 {
+    width: 26em;
+    font-size: 0.8em;
+    transform: translateX(-32px);
+  }
 }
 
 @media (min-width: 992px) {
-  .dropdown-menu-center {
+  .dropdown-treatments {
     left: 100%;
     transform: translateX(-250px);
   }
 }
+
 img.respofix {
   width: 70%;
 }
