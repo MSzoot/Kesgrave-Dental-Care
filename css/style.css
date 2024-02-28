@@ -333,3 +333,11 @@ img.respofix {
     width: 100%;
   }
 }
+.bg-logo {
+  background-image: url(../img/Kesgrave\ Dental\ Care\ Brand\ Marks-02.png);
+  background-color: #ede8ddaf;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-blend-mode: multiply;
+  background-position: center;
+}
