@@ -341,13 +341,9 @@ img.respofix {
   background-blend-mode: multiply;
   background-position: center;
 }
-@media (max-width: 767px) {
-  .bg-logo {
-    background-position: top;
-  }
-}
 
 .footer-text {
   display: flex;
   justify-content: space-around;
+  gap: 20px;
 }
