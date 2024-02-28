@@ -347,3 +347,7 @@ img.respofix {
   justify-content: space-around;
   gap: 20px;
 }
+
+.smaller-font {
+  font-size: 0.8em;
+}
