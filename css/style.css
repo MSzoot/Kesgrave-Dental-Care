@@ -346,3 +346,8 @@ img.respofix {
     background-position: top;
   }
 }
+
+.footer-text {
+  display: flex;
+  justify-content: space-around;
+}
