@@ -2,18 +2,27 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <title>Kesgrave Dental Practice</title>
+    <title>
+      Kesgrave Dental Care - Your Trusted Family Dentist Expert Dental Care
+    </title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport" />
-    <meta content="Free HTML Templates" name="keywords" />
-    <meta content="Free HTML Templates" name="description" />
+    <meta
+      content="Welcome to Kesgrave Dental Care, where we provide exceptional dental care for your entire family. Our expert team of dentists offers a range of services, from general check-ups to advanced cosmetic treatments. Book an appointment today!"
+      name="description"
+    />
+    <meta
+      content="Ipswich Dentist, Woodbridge Dentist, Martlesham Dentist, Dental Care, Expert Dentists, Dental Surgery, Dental Implants, Emergency Dentistry, Affordable Dental Care, Kesgrave Dental"
+      name="keywords"
+    />
 
     <!-- Favicon -->
-    <link href="img/favicon.ico" rel="icon" />
+    <link href="img/Kesgrave Dental Care Brand Marks-02.png" rel="icon" />
 
     <!-- Google Web Fonts -->
-    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Jost:wght@500;600;700&family=Open+Sans:wght@400;600&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
       rel="stylesheet"
     />
 
@@ -44,46 +53,32 @@
   </head>
 
   <body>
-    <!-- Spinner Start -->
-    <div
-      id="spinner"
-      class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center"
-    >
-      <div class="spinner-grow text-primary m-1" role="status">
-        <span class="sr-only">Loading...</span>
-      </div>
-      <div class="spinner-grow text-dark m-1" role="status">
-        <span class="sr-only">Loading...</span>
-      </div>
-      <div class="spinner-grow text-secondary m-1" role="status">
-        <span class="sr-only">Loading...</span>
-      </div>
-    </div>
-    <!-- Spinner End -->
-
     <!-- Topbar Start -->
-    <div class="container-fluid bg-light ps-5 pe-0 d-none d-lg-block">
+    <div
+      class="container-fluid ps-5 pe-0 d-none d-lg-block topbar-responsive-fix"
+    >
       <div class="row gx-0">
         <div class="col-md-6 text-center text-lg-start mb-2 mb-lg-0">
           <div class="d-inline-flex align-items-center">
             <small class="py-2"
               ><i class="far fa-clock text-primary me-2"></i>Opening Hours:
-              Monday - Saturday : 9.00 am - 17.00 pm, Sunday Closed
+              Monday-Thursday: 9am - 5pm | Friday: 9am - 4pm
             </small>
           </div>
         </div>
         <div class="col-md-6 text-center text-lg-end">
           <div
-            class="position-relative d-inline-flex align-items-center bg-primary text-white top-shape px-5"
+            class="position-relative d-inline-flex align-items-center bg-secondary text-white top-shape px-5"
           >
             <div class="me-3 pe-3 border-end py-2">
               <p class="m-0">
-                <i class="fa fa-envelope-open me-2"></i>KesgraveDP@gmail.com
+                <i class="fa fa-envelope-open me-2"></i
+                >Reception@kesgravedentalcare.com
               </p>
             </div>
             <div class="py-2">
               <p class="m-0">
-                <i class="fa fa-phone-alt me-2"></i>+012 345 6789
+                <i class="fa fa-phone-alt me-2"></i>01473 623 627
               </p>
             </div>
           </div>
@@ -94,11 +89,15 @@
 
     <!-- Navbar Start -->
     <nav
-      class="navbar navbar-expand-lg bg-white navbar-light shadow-sm px-5 py-3 py-lg-0"
+      class="navbar navbar-expand-lg bg-dark navbar-light shadow-sm px-5 py-3 py-lg-0"
     >
       <a href="index.html" class="navbar-brand p-0">
         <h3 class="m-0 text-primary">
-          <i class="fa fa-tooth me-2"></i>Kesgrave Dental
+          <img
+            src="./img/Kesgrave Dental Care Monogram Logo.png"
+            alt=""
+            style="width: 120px"
+          />
         </h3>
       </a>
       <button
@@ -113,9 +112,22 @@
       </button>
       <div class="collapse navbar-collapse" id="navbarCollapse">
         <div class="navbar-nav ms-auto py-0">
-          <a href="index.html" class="nav-item nav-link">Home</a>
-          <a href="about.html" class="nav-item nav-link active">About</a>
-          <a href="emergencies.html" class="nav-item nav-link">Emergencies</a>
+          <div class="dropdown nav-item">
+            <a
+              href="about.html"
+              class="nav-item nav-link dropdown-toggle"
+              data-bs-toggle="dropdown"
+              >About</a
+            >
+            <div
+              class="dropdown-menu bg-dark dropdown border-0 dropdown-menu-left"
+              aria-labelledby="dropdownMenuButton"
+            >
+              <div class="dropdown-col"></div>
+              <a class="dropdown-item" href="about.html">Our Practice</a>
+              <a class="dropdown-item" href="#">Our Team</a>
+            </div>
+          </div>
           <div class="dropdown nav-item">
             <a
               href="#"
@@ -124,25 +136,38 @@
               >Treatments</a
             >
             <div
-              class="dropdown-menu dropdown-multicol2 border-0 dropdown-menu-center"
+              class="dropdown-menu bg-dark dropdown-multicol2 border-0 dropdown-menu-center dropdown-treatments"
               aria-labelledby="dropdownMenuButton"
             >
               <div class="dropdown-col">
                 <h5 class="p-3">General</h5>
-                <a class="dropdown-item" href="services1.html"
-                  >Dental Check-ups</a
-                >
+                <a class="dropdown-item" href="services1.html">Dental Exam</a>
+                <a class="dropdown-item" href="#">Scale and Polish</a>
+                <a class="dropdown-item" href="#">Periodontal Treatment</a>
+                <a class="dropdown-item" href="#">White Fillings</a>
+                <a class="dropdown-item" href="#">Root Canal Treatment</a>
+                <a class="dropdown-item" href="#">Dental Crowns/Caps</a>
                 <a class="dropdown-item" href="#">Dental Bridges</a>
-                <a class="dropdown-item" href="#">Tooth Extraction</a>
+                <a class="dropdown-item" href="#">Dentures</a>
+                <a class="dropdown-item" href="#">Teeth Extraction</a>
+                <a class="dropdown-item" href="#">Sedation</a>
               </div>
-              <div class="dropdown-col">
-                <h5 class="p-3">Cosmetic</h5>
+              <div class="dropdown-col nav-mobile-fix">
+                <h5 class="p-3">Implants</h5>
                 <a class="dropdown-item" href="#">Dental Implants</a>
                 <a class="dropdown-item" href="#">Implant Dentures</a>
-                <a class="dropdown-item" href="#">Dental Bridges</a>
+                <a class="dropdown-item" href="#">Implant Retained Bridges</a>
+                <h5 class="p-3">Cosmetic</h5>
+                <a class="dropdown-item" href="#">Composite Bonding</a>
+                <a class="dropdown-item" href="#">Veneers</a>
+                <a class="dropdown-item" href="#">Teeth whitening</a>
+                <a class="dropdown-item" href="#"
+                  >Invisalign & Clear Aligners</a
+                >
               </div>
             </div>
           </div>
+          <a href="emergencies.html" class="nav-item nav-link">Emergencies</a>
           <a href="price.html" class="nav-item nav-link">Pricing</a>
           <a href="contact.html" class="nav-item nav-link">Contact</a>
         </div>
@@ -161,7 +186,10 @@
     <!-- Hero End -->
 
     <!-- About Start -->
-    <div class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s">
+    <div
+      class="container-fluid py-5 wow fadeInUp bg-logo"
+      data-wow-delay="0.1s"
+    >
       <div class="container">
         <div class="row g-5">
           <div class="col-lg-7">
@@ -172,45 +200,59 @@
                 About Us
               </h5>
               <h1 class="display-5 mb-0">
-                The UK's Best Dental Clinic That You Can Trust
+                Legacy meets modern innovation in the heart of Kesgrave
               </h1>
             </div>
             <h4 class="text-body fst-italic mb-4">
-              Kesgrave Dental: Award-winning care for your smile!
+              While the roots of our practice run deep, so does our commitment
+              to modern dentistry.
             </h4>
             <p class="mb-4">
-              Welcome to Kesgrave Dental, a modern practice in the heart of
-              Kesgrave town. Led by Dr. Amelia Williams, our compassionate team
-              provides a range of services for all ages. With cutting-edge
-              technology and a focus on patient education, we strive to deliver
-              excellent care and bright smiles. Join us in our commitment to
-              oral health and community well-being!
+              Dr. Deji and Dr. Emma, two passionate and seasoned dentists, have
+              chosen to breathe new life into an established cornerstone of the
+              Kesgrave community. We cultivate a culture where holistic care
+              meets innovation; striving not just to treat but to prevent dental
+              disease and restore smiles. We are committed to ensuring that
+              every patient feels safe, understood, and valued.
+            </p>
+            <p class="mb-4">
+              Our promise is simple: To provide excellent dental care in a
+              practice that values family, quality, and compassion above all
+              else. We invite you to be part of this exciting journey…
             </p>
             <div class="row g-3">
               <div class="col-sm-6">
                 <h5 class="mb-3">
-                  <i class="fa fa-check-circle text-primary me-3"></i>Award
-                  Winning
+                  <img
+                    src="./img/KDC Mark.png"
+                    alt=""
+                    width="28px"
+                    style="margin-right: 6px"
+                  />Professional Staff
                 </h5>
                 <h5 class="mb-3">
-                  <i class="fa fa-check-circle text-primary me-3"></i
-                  >Professional Staff
+                  <img
+                    src="./img/KDC Mark.png"
+                    alt=""
+                    width="28px"
+                    style="margin-right: 6px"
+                  />Fair Prices
                 </h5>
               </div>
               <div class="col-sm-6">
                 <h5 class="mb-3">
-                  <i class="fa fa-check-circle text-primary me-3"></i>24/7
-                  Opened
-                </h5>
-                <h5 class="mb-3">
-                  <i class="fa fa-check-circle text-primary me-3"></i>Fair
-                  Prices
+                  <img
+                    src="./img/KDC Mark.png"
+                    alt=""
+                    width="28px"
+                    style="margin-right: 6px"
+                  />Compassionate care
                 </h5>
               </div>
             </div>
             <a
               href="contact.html"
-              class="btn btn-primary py-3 px-5 mt-4 wow zoomIn"
+              class="btn btn-primary text-white py-3 px-5 mt-4 wow zoomIn"
               data-wow-delay="0.6s"
               >Ask us a question !</a
             >
@@ -220,8 +262,8 @@
               <img
                 class="position-absolute w-100 h-100 rounded wow zoomIn"
                 data-wow-delay="0.9s"
-                src="img/about.png"
-                alt="picture of dentist couple"
+                src="img/kid 2.jpeg"
+                alt="picture of Emma and Deji"
                 style="object-fit: cover"
               />
             </div>
