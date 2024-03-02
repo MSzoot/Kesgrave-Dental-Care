@@ -202,13 +202,13 @@ textarea {
 
 .hero-header {
   background: linear-gradient(#111d1df7, #111d1db5),
-    url(../img/carousel-1.jpg) center center no-repeat;
+    url(../img/carousel-1.webp) center center no-repeat;
   background-size: cover;
 }
 
 .bg-appointment {
   background: linear-gradient(#111d1de0, #111d1de0),
-    url(../img/carousel-1.jpg) center center no-repeat;
+    url(../img/carousel-1.webp) center center no-repeat;
   background-size: cover;
 }
 
@@ -249,7 +249,7 @@ textarea {
 
 .bg-offer {
   background: linear-gradient(#111d1df7, #111d1db5),
-    url(../img/carousel-1.jpg) center center no-repeat;
+    url(../img/carousel-1.webp) center center no-repeat;
   background-size: cover;
 }
 
