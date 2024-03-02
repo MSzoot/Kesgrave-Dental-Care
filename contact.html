@@ -217,7 +217,9 @@
     <!-- Hero End -->
 
     <!-- Contact Start -->
-    <div class="container-fluid py-5">
+
+    <div class="container-fluid py-5 bg-logo">
+      <h1 class="text-center my-5">Contact Us</h1>
       <div class="container">
         <div class="row g-5">
           <div class="col-xl-4 col-lg-6 wow slideInUp" data-wow-delay="0.1s">
@@ -234,31 +236,37 @@
                 <i class="bi bi-geo-alt fs-1 text-primary me-3"></i>
                 <div class="text-start">
                   <h5 class="mb-0">Location</h5>
-                  <span>Ipswich IP6 0E5 Berners Road</span>
+                  <p style="font-size: 0.8em">
+                    13 Penzance Road, Kesgrave, Suffolk, IP51LY
+                  </p>
                 </div>
               </div>
               <div class="d-flex align-items-center mb-2">
                 <i class="bi bi-envelope-open fs-1 text-primary me-3"></i>
                 <div class="text-start">
                   <h5 class="mb-0">Email Us</h5>
-                  <span>KesgraveDP@gmail.com</span>
+                  <p style="font-size: 0.8em">
+                    reception@kesgravedentalcare.com
+                  </p>
                 </div>
               </div>
               <div class="d-flex align-items-center">
                 <i class="bi bi-phone-vibrate fs-1 text-primary me-3"></i>
                 <div class="text-start">
                   <h5 class="mb-0">Call Us</h5>
-                  <span>+012 345 67890</span>
+                  <p style="font-size: 0.8em">01473 623627</p>
                 </div>
               </div>
             </div>
           </div>
           <div class="col-xl-4 col-lg-6 wow slideInUp" data-wow-delay="0.3s">
-            <form>
+            <form name="contact" method="POST" netlify>
               <div class="row g-3">
                 <div class="col-12">
                   <input
                     type="text"
+                    required
+                    name="name"
                     class="form-control border-0 bg-light px-4"
                     placeholder="Your Name"
                     style="height: 55px"
@@ -267,6 +275,8 @@
                 <div class="col-12">
                   <input
                     type="email"
+                    required
+                    name="email"
                     class="form-control border-0 bg-light px-4"
                     placeholder="Your Email"
                     style="height: 55px"
@@ -275,20 +285,24 @@
                 <div class="col-12">
                   <input
                     type="text"
+                    required
+                    name="subject"
                     class="form-control border-0 bg-light px-4"
                     placeholder="Subject"
                     style="height: 55px"
                   />
                 </div>
-                <div class="col-12">
+                <div class="col-12 mb-4">
                   <textarea
+                    name="message content"
+                    required
                     class="form-control border-0 bg-light px-4 py-3"
                     rows="5"
                     placeholder="Message"
                   ></textarea>
                 </div>
                 <div class="col-12">
-                  <button class="btn btn-primary w-100 py-3" type="submit">
+                  <button class="btn btn-primary w-100 py-3 mt-4" type="submit">
                     Send Message
                   </button>
                 </div>
@@ -298,14 +312,20 @@
           <div class="col-xl-4 col-lg-12 wow slideInUp" data-wow-delay="0.6s">
             <iframe
               width="100%"
-              height="440px"
+              height="490"
               frameborder="0"
               scrolling="no"
               marginheight="0"
               marginwidth="0"
               id="gmap_canvas"
-              src="https://maps.google.com/maps?width=342&amp;height=400&amp;hl=en&amp;q=1%20burke%20close%20Ipswich+(dental%20practice)&amp;t=&amp;z=12&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
+              src="https://maps.google.com/maps?width=400&amp;height=490&amp;hl=en&amp;q=13%20Penzance%20Road%20Ipswich+(Kesgrave%20Dental%20Care)&amp;t=&amp;z=13&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
             ></iframe>
+            <a href="https://www.acadoo.de/">akademisches Ghostwriting</a>
+            <script
+              type="text/javascript"
+              src="https://embedmaps.com/google-maps-authorization/script.js?id=67e8d426d49cb9ab3cae08316504067faa5f46cb"
+              async
+            ></script>
           </div>
         </div>
       </div>
