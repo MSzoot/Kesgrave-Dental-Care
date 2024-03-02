@@ -177,23 +177,23 @@ textarea {
 }
 
 .section-title h5::before {
-  position: absolute;
+  /* position: absolute;
   content: "";
   width: 45px;
   height: 3px;
   right: -55px;
   bottom: 11px;
-  background: var(--primary);
+  background: var(--primary); */
 }
 
 .section-title h5::after {
-  position: absolute;
+  /* position: absolute;
   content: "";
   width: 15px;
   height: 3px;
   right: -75px;
   bottom: 11px;
-  background: var(--secondary);
+  background: var(--secondary); */
 }
 
 .twentytwenty-wrapper {
