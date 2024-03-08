@@ -357,3 +357,70 @@ img.respofix {
     font-size: 0.7em;
   }
 }
+
+/* reviews */
+
+.reviews-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  color: white;
+  border-radius: 8px;
+}
+
+.review {
+  padding: 16px;
+  width: 300px;
+  min-width: 250px;
+}
+
+.review:last-child {
+  border-bottom: none;
+}
+
+.user-avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 12px;
+}
+
+.user-info {
+  display: flex;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+.user-name {
+  font-weight: bold;
+  margin-right: 8px;
+}
+
+.rating {
+  display: flex;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+.star {
+  color: #f39c12;
+  margin-right: 4px;
+}
+
+.review-text {
+  color: white;
+}
+
+.reviewbox {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+@media (max-width: 767px) {
+  .rev-mob{
+    display: none;
+  }
