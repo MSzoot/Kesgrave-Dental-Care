@@ -459,7 +459,7 @@
         <div class="text-center text-md-start g-3">
           <p class="text-white border-bottom mb-md-0">
             &copy; Copyright Kesgrave Dental Practice 2024 | Site last updated:
-            07/2024
+            <span class="last-update"></span>
           </p>
         </div>
         <div class="text-center text-md-start">
@@ -494,6 +494,12 @@
       data-use-service-core
       defer`
     ></script>
+    <script src="variables.js"></script>
+    <script>
+    document.addEventListener("DOMContentLoaded", function() {
+        displayLastUpdate(".last-update");
+    });
+    </script>
 
     <!-- Template Javascript -->
     <script src="js/main.js"></script>
